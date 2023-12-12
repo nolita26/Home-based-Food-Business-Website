@@ -1,22 +1,20 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Menu from './components/Menu';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Menu from './components/Menu';
 
 const App = () => {
+
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <main>
         <div id='home'>
           <Home/>
         </div>
-        {/* <div id='order'>
-          <Menu/>
-        </div> */}
         <div id='menu'>
           <Menu/>
         </div>
